@@ -2,12 +2,14 @@
 
 .first-view {
     height: calc(100vh - 110px);
-    background-image: url(../images/index/bg_main.jpg);
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     display: flex;
     align-items: center;
+    text-align: center;
+
 }
 
 .first-view-text {
