@@ -1,5 +1,29 @@
 @charset "utf-8";
 
+.header-title {
+    height: calc(100vh - 110px);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.header-title-text {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 80px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
 .first-view {
     height: calc(100vh - 110px);
     background-color: black;
