@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jQuery.jsの読み込み -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <title>Document</title>
 </head>
+<script>
+    $(function(){
+       // #で始まるアンカーをクリックした場合に処理
+        $('a[href^=#]').click(function() {
+            // スクロールの速度
+            var speed = 400; // ミリ秒
+            // アンカーの値取得
+            var href= $(this).attr("href");
+            // 移動先を取得
+            var target = $(href == "#" || href == "" ? 'html' : href);
+            // 移動先を数値で取得
+            var position = target.offset().top;
+            // スムーススクロール
+            $('body,html').animate({scrollTop:position}, speed, 'swing');
+            return false;
+        });
+    });
+</script>
 <body>
-    
+    <ul class="nav">
+        <li><a href="#yakigasi1">焼きがし1</a></li>
+        <li><a href="#yakigasi2">焼きがし2</a></li>
+        <li><a href="#yakigasi3">焼きがし3</a></li>
+        <li><a href="#yakigasi4">焼きがし4</a></li>
+        <li><a href="#yakigasi5">焼きがし5</a></li>
+        <li><a href="#yakigasi6">焼きがし6</a></li>
+        <li><a href="#yakigasi7">焼きがし7</a></li>
+        <li><a href="#yakigasi8">焼きがし8</a></li>
+    </ul>
+
+    <div id="yakigasi1" class="shop1">
+        <h1>見出し</h1>
+        <p>紹介文</p>
+    </div>
+
 </body>
 </html>
