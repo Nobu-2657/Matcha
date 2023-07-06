@@ -6,11 +6,31 @@
         <meta name="description" content="抹茶アイス紹介">
         <meta name="viewport" content="width=device-width">
         <script src="js/script.js"></script>
+        <!-- jQuery.jsの読み込み -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
         <link href="css/icc.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">    
     </head>
+    <script>
+        $(function(){
+           // #で始まるアンカーをクリックした場合に処理
+            $('a[href^=#]').click(function() {
+                // スクロールの速度
+                var speed = 400; // ミリ秒
+                // アンカーの値取得
+                var href= $(this).attr("href");
+                // 移動先を取得
+                var target = $(href == "#" || href == "" ? 'html' : href);
+                // 移動先を数値で取得
+                var position = target.offset().top;
+                // スムーススクロール
+                $('body,html').animate({scrollTop:position}, speed, 'swing');
+                return false;
+            });
+        });
+    </script>
     <body style>
         <!-- header ここから -->
         <header class="header">
@@ -54,6 +74,22 @@
                 
         </main>
         <!-- main ここまで -->
+
+        <ul class="nav">
+            <li><a href="#yakigasi1">焼きがし1</a></li>
+            <li><a href="#yakigasi2">焼きがし2</a></li>
+            <li><a href="#yakigasi3">焼きがし3</a></li>
+            <li><a href="#yakigasi4">焼きがし4</a></li>
+            <li><a href="#yakigasi5">焼きがし5</a></li>
+            <li><a href="#yakigasi6">焼きがし6</a></li>
+            <li><a href="#yakigasi7">焼きがし7</a></li>
+            <li><a href="#yakigasi8">焼きがし8</a></li>
+        </ul>
+    
+        <div id="yakigasi1" class="shop1">
+            <h1>見出し</h1>
+            <p>紹介文</p>
+        </div>
 
         <!-- footer ここから -->
         <footer class="footer">
