@@ -12,7 +12,7 @@ window.addEventListener('load', function () {
 });
 
 /*$(function(){
-    var topButton=$('#pageTop');
+    var topButton=$('#page-top');
     topButton.hide();
     
     //ボタンの表示設定
