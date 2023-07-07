@@ -11,6 +11,19 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    auto: true,
+                    pause: 5000,
+                });
+            });
+        </script>
     </head>
     <body style>
         <!-- header ここから -->
@@ -43,6 +56,14 @@
                     <p>サブタイトル</p>
                 </div>
             </div>
+            
+            <div class="slider">
+                <a href="cake.html"><img src="images/index/saijoen.jpg" width="1600" height="900" alt="ケーキ1"></a>
+                <a href="cake.html"><img src="images/index/nanntekotta.jpg" width="1600" height="900" alt="ケーキ2"></a>
+                <a href="cake.html"><img src="images/index/matchakan.jpg" width="1600" height="900" alt="ケーキ3"></a>
+                <a href="cake.html"><img src="images/index/kw.jpg" width="1600" height="900" alt="ケーキ4"></a>
+            </div>
+
             <a href="#" id="pageTop"></a>
             <div class="first-view">
                 <div class="first-view-text">
