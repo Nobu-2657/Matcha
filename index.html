@@ -16,14 +16,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('.slider').bxSlider({
-                    auto: true,
-                    pause: 5000,
-                });
-            });
-        </script>
     </head>
     <body style>
         <!-- header ここから -->
@@ -57,11 +49,27 @@
                 </div>
             </div>
             
-            <div class="slider">
-                <a href="cake.html"><img src="images/index/saijoen.jpg" width="1600" height="900" alt="ケーキ1"></a>
-                <a href="cake.html"><img src="images/index/nanntekotta.jpg" width="1600" height="900" alt="ケーキ2"></a>
-                <a href="cake.html"><img src="images/index/matchakan.jpg" width="1600" height="900" alt="ケーキ3"></a>
-                <a href="cake.html"><img src="images/index/kw.jpg" width="1600" height="900" alt="ケーキ4"></a>
+            <div class="slide-container">
+                <div class="slide-wrapper">
+                    <a href="cake.html"><img class="slide" src="images/index/saijoen.jpg" width="500" height="400" alt="ケーキ1"></a>
+                    <a href="cake.html"><img class="slide" src="images/index/nanntekotta.jpg" width="500" height="400" alt="ケーキ2"></a>
+                    <a href="cake.html"><img class="slide" src="images/index/matchakan.jpg" width="500" height="400" alt="ケーキ3"></a>
+                    <a href="cake.html"><img class="slide" src="images/index/kw.jpg" width="500" height="400" alt="ケーキ4"></a>
+                    <a href="drink.html"><img class="slide" src="images/index/hatoya.jpg" width="500" height="400" alt="ドリンク1"></a>
+                    <a href="drink.html"><img class="slide" src="images/index/kanmidokorokamakura.jpg" width="500" height="400" alt="ドリンク2"></a>
+                </div>
+                <div class="slide-wrapper">
+                    <a href="cake.html"><img class="slide" src="images/index/saijoen.jpg" width="1600" height="900" alt="ケーキ1"></a>
+                    <a href="cake.html"><img class="slide" src="images/index/nanntekotta.jpg" width="1600" height="900" alt="ケーキ2"></a>
+                    <a href="cake.html"><img class="slide" src="images/index/matchakan.jpg" width="1600" height="900" alt="ケーキ3"></a>
+                    <a href="cake.html"><img class="slide" src="images/index/kw.jpg" width="1600" height="900" alt="ケーキ4"></a>
+                </div>
+                <div class="slide-wrapper">
+                    <a href="cake.html"><img class="slide" src="images/index/saijoen.jpg" width="1600" height="900" alt="ケーキ1"></a>
+                    <a href="cake.html"><img class="slide" src="images/index/nanntekotta.jpg" width="1600" height="900" alt="ケーキ2"></a>
+                    <a href="cake.html"><img class="slide" src="images/index/matchakan.jpg" width="1600" height="900" alt="ケーキ3"></a>
+                    <a href="cake.html"><img class="slide" src="images/index/kw.jpg" width="1600" height="900" alt="ケーキ4"></a>
+                </div>
             </div>
 
             <a href="#" id="pageTop"></a>
