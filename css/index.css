@@ -39,6 +39,11 @@ html{
     text-align: center;
 }
 
+body{
+    background-color: #000000;
+    color:#cccccc;
+}
+
 ul, ol {
     list-style: none;
 }
@@ -137,6 +142,31 @@ a {
     color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.slide-container {
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slide-wrapper {
+    display: flex;
+    animation: slide-flow 50s infinite linear 1s both;
+}
+
+.slide {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
+
+@keyframes slide-flow {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-100%);}
 }
 
 .first-view {
