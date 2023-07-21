@@ -39,6 +39,11 @@ html{
     text-align: center;
 }
 
+body{
+    background-color: #000000;
+    color:#cccccc;
+}
+
 ul, ol {
     list-style: none;
 }
