@@ -235,3 +235,67 @@ a {
     max-width: 1200px;
     margin: 60px auto;
 }
+
+@media (max-width: 800px) {
+    .header-site-menu {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .header-site-menu.is-show {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .main-title-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main-title-text h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .first-view-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .first-view-text-box{
+        width: 300px;
+    }
+
+    .first-view-text h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .nav {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .shop{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .shop img{
+        width: 300px;
+    }
+
+    .shop iframe{
+        width: 400px;
+    }
+    
+    .lead {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
