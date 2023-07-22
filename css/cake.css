@@ -230,6 +230,27 @@ a {
     width: 600px;
 }
 
+.shop-box{
+    align-items: center;
+    width: 600px;
+    margin: 5px;
+    border: solid 1px black;
+    margin: 0 auto;
+}
+
+.shop-box-text{
+    width: 930px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 80px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
 .lead {
     max-width: 1200px;
     margin: 60px auto;
