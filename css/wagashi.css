@@ -65,6 +65,7 @@ a {
 
 .site-menu li {
     margin-top: 40px;
+    font-family: 'Kaisei Opti', serif;
 }
 
 .header {
@@ -171,6 +172,7 @@ a {
     color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
+    padding-top: 100px;
 }
 
 .first-view-text-box{
@@ -183,7 +185,7 @@ a {
 
 
 .first-view-text h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Kaisei Opti', serif;
     font-size: 56px;
     line-height: 72px;
 }
@@ -225,6 +227,14 @@ a {
     color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.shop h1{
+    padding-top: 100px;
+}
+
+.shop h2{
+    padding-top: 50px;
 }
 
 .shop img{
