@@ -272,6 +272,9 @@ a {
         padding-bottom: 20px;
     }
 
+    .header-site-menu li {
+        margin-top: 20px;
+
     .header-site-menu.is-show {
         padding-top: 20px;
         padding-bottom: 20px;
