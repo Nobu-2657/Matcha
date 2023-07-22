@@ -321,6 +321,11 @@ a {
     .shop iframe{
         width: 400px;
     }
+
+    .shop-box-text{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     
     .lead {
         padding-left: 20px;
