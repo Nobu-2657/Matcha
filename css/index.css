@@ -100,12 +100,6 @@ a {
     outline: none;
 }
 
-
-.header-logo {
-    display: block;
-    width: 170px;
-}
-
 .header-site-menu {
     position: absolute;
     top: 100%;left: 0;
