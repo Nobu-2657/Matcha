@@ -228,6 +228,14 @@ a {
     text-shadow: 1px 1px 10px #4b2c14;
 }
 
+.shop h1{
+    padding-top: 100px;
+}
+
+.shop h2{
+    padding-top: 50px;
+}
+
 .shop-box{
     align-items: center;
     width: 600px;
