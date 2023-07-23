@@ -206,6 +206,7 @@ a {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+
     color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
@@ -222,14 +223,6 @@ a {
     color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
-}
-
-.shop h1{
-    padding-top: 100px;
-}
-
-.shop h2{
-    padding-top: 50px;
 }
 
 .shop img{
@@ -262,16 +255,12 @@ a {
     margin: 60px auto;
 }
 
-.footer {
-    width: 930px;
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 40px;
-    padding-right: 80px;
-    color: #ffffff;
-    font-weight: bold;
-    text-shadow: 1px 1px 10px #4b2c14;
+div.footer-empty {
+    width: 100%;
+    margin: 5px;
+    border: solid 1px black;
+    margin: 0 auto;
+    height: 100px;
 }
 
 @media (max-width: 800px) {
