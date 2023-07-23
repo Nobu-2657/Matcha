@@ -158,7 +158,6 @@ a {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    /* display: flex; */
     align-items: center;
     text-align: center;
 
@@ -186,7 +185,6 @@ a {
 
 
 .first-view-text h1 {
-    font-family: 'Kaisei Opti', serif;
     font-size: 56px;
     line-height: 72px;
 }
@@ -222,6 +220,7 @@ a {
     margin-right: auto;
     padding-left: 40px;
     padding-right: 80px;
+    padding-bottom: 50px;
     color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
@@ -237,11 +236,11 @@ a {
 
 .shop-box{
     align-items: center;
-    width: 600px;
+    width: 60%;
     margin: 5px;
-    border: solid 1px black;
+    border: solid 1px #999999;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .shop-box-text{
