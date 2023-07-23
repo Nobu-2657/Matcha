@@ -173,11 +173,12 @@ a {
     color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
+    padding-top: 100px;
 }
 
 .first-view-text-box{
     align-items: center;
-    width: 600px;
+    width: 300px;
     margin: 5px;
     border: solid 1px #999999;
     margin: 0 auto;
@@ -208,12 +209,11 @@ a {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 40px;
-    padding-right: 80px;
     color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
-    text-align: center;
+    padding-left: 80px;
+    padding-right: 40px;
 }
 
 .shop{
@@ -274,6 +274,7 @@ a {
 
     .header-site-menu li {
         margin-top: 20px;
+    }
 
     .header-site-menu.is-show {
         padding-top: 20px;

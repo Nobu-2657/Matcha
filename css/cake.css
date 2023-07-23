@@ -206,8 +206,6 @@ a {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 40px;
-    padding-right: 80px;
     color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
@@ -272,6 +270,7 @@ a {
 
     .header-site-menu li {
         margin-top: 20px;
+    }
 
     .header-site-menu.is-show {
         padding-top: 20px;
