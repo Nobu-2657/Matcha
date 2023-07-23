@@ -1,12 +1,12 @@
 window.addEventListener('load', function () {
-    var $button = document.querySelector('.toggle-menu-button');
-    var $menu = document.querySelector('.header-site-menu');
-    $button.addEventListener('click', function () {
-        if ($menu.classList.contains('is-show')) {
-            $menu.classList.remove('is-show');
+    var $button = document.querySelector('.toggle-menu-button'); // メニューボタン
+    var $menu = document.querySelector('.header-site-menu'); // メニュー
+    $button.addEventListener('click', function () { // メニューボタンをクリックしたとき
+        if ($menu.classList.contains('is-show')) { // メニューが表示されているとき
+            $menu.classList.remove('is-show'); // メニューを非表示にする
         }
         else {
-            $menu.classList.add('is-show');
+            $menu.classList.add('is-show'); // メニューを表示する
         }
     });
 });
