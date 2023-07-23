@@ -157,10 +157,8 @@ a {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    /* display: flex; */
     align-items: center;
     text-align: center;
-
 }
 
 .first-view-text {
@@ -183,10 +181,8 @@ a {
     margin: 0 auto;
 }
 
-
 .first-view-text h1 {
-    font-family: 'Kaisei Opti', serif;
-    font-size: 40px;
+    font-size: 36px;
     line-height: 72px;
 }
 
@@ -214,7 +210,6 @@ a {
     text-align: center;
 }
 
-
 .shop{
     width: 930px;
     max-width: 90%;
@@ -222,6 +217,7 @@ a {
     margin-right: auto;
     padding-left: 40px;
     padding-right: 80px;
+    padding-bottom: 50px;
     color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
@@ -235,13 +231,17 @@ a {
     padding-top: 50px;
 }
 
+.shop img{
+    width: 600px;
+}
+
 .shop-box{
     align-items: center;
     width: 60%;
     margin: 5px;
-    border: solid 1px black;
+    border: solid 1px #999999;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .shop-box-text{
@@ -255,10 +255,6 @@ a {
     color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
-}
-
-.shop img{
-    width: 600px;
 }
 
 .lead {
@@ -327,7 +323,12 @@ a {
     .shop iframe{
         width: 400px;
     }
-    
+
+    .shop-box-text{
+        padding-left: 20px;
+        padding-right: 20px;
+    }    
+
     .lead {
         padding-left: 20px;
         padding-right: 20px;
